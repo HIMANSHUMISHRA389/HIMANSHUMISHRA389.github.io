@@ -1,0 +1,21 @@
+.github_Calender{
+    margin: auto;
+    border: 2px solid var(--clr-primary); 
+    width: 80%;
+    padding: 20px;
+    border-radius: 10px;
+}
+
+@media all and (max-width: 800px) and (min-width: 400px) {
+    .github_Calender{
+        width :100%;
+    }
+}
+
+
+@media all and (max-width: 400px) and (min-width: 80px) {
+    .github_Calender{
+        width :100%;
+    }
+}
+

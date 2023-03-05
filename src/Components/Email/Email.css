@@ -1,0 +1,30 @@
+input,textarea{
+    border: 2px solid var(--clr-primary);
+    padding: 5px;
+    border-radius: 10px;
+    width: 300px;
+}
+.input_btn:hover{
+color: white;
+background-color: var(--clr-primary);
+}
+
+@media (max-width: 670px){
+    input,textarea{
+        border: 2px solid var(--clr-primary);
+        padding: 5px;
+        border-radius: 10px;
+        width: 250px;
+    }
+    
+  }
+
+  @media (max-width: 290px){
+    input,textarea{
+        border: 2px solid var(--clr-primary);
+        padding: 5px;
+        border-radius: 10px;
+        width: 200px;
+    }
+    
+  }
