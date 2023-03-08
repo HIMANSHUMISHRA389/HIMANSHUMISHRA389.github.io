@@ -57,10 +57,6 @@ export const Techstacks = () => {
                         <h5>Github</h5>
                     </div>
                     <div>
-                        <SiSwiper />
-                        <h5>Swiper JS</h5>
-                    </div>
-                    <div>
                         <BsBootstrap />
                         <h5>Bootstrap</h5>
                     </div>
@@ -69,16 +65,8 @@ export const Techstacks = () => {
                         <h5>Netlify</h5>
                     </div>
                     <div>
-                        <SiVercel />
-                        <h5>Vercel</h5>
-                    </div>
-                    <div>
                         <SiHeroku />
                         <h5>Heroku</h5>
-                    </div>
-                    <div>
-                        <SiRailway />
-                        <h5>Railway</h5>
                     </div>
                     <div>
                         <SiNodedotjs />
