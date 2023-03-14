@@ -73,7 +73,7 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://www.sephora.com/contentimages/2023-03-01-slotting-moisturizers-by-skin-type-site-rwd-home-page-hero-banner-us-ca-handoff_01.jpg?imwidth=545"
+                    src="https://drive.google.com/file/d/1Y--uoEQ-iogVv_We6dWblqxaEmm5QcOE/view?usp=share_link"
                     alt="Sephora"
                   />
                 </div>
