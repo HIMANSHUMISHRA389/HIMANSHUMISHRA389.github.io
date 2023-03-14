@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/static/css/main.52325ed5.css",
-    "main.js": "/static/js/main.81d191f3.js",
+    "main.js": "/static/js/main.580b8863.js",
     "static/js/787.128fc6e9.chunk.js": "/static/js/787.128fc6e9.chunk.js",
     "static/media/himanshuresume.pdf": "/static/media/himanshuresume.fa6210579f3f5004487f.pdf",
     "static/media/ProfPic.jpg": "/static/media/ProfPic.01f56c73df1b48a1f5a1.jpg",
     "index.html": "/index.html",
     "main.52325ed5.css.map": "/static/css/main.52325ed5.css.map",
-    "main.81d191f3.js.map": "/static/js/main.81d191f3.js.map",
+    "main.580b8863.js.map": "/static/js/main.580b8863.js.map",
     "787.128fc6e9.chunk.js.map": "/static/js/787.128fc6e9.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.52325ed5.css",
-    "static/js/main.81d191f3.js"
+    "static/js/main.580b8863.js"
   ]
 }
