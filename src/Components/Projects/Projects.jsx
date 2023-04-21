@@ -73,8 +73,8 @@ export const Projects = () => {
               <div className="project_videocontainer">
                 <div>
                   <img
-                    src="https://drive.google.com/file/d/1Y--uoEQ-iogVv_We6dWblqxaEmm5QcOE/view?usp=share_link"
-                    alt="Sephora"
+                    src="https://ik.imgkit.net/3vlqs5axxjf/PCWW/uploadedImages/Articles/News/2023/February/trivago%20q4%202022.png?tr=w-600%2Ch-300%2Cfo-auto"
+                    alt="Trivago"
                   />
                 </div>
               </div>

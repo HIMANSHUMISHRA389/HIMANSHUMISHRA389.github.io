@@ -1,7 +1,7 @@
 import React, { useContext } from "react";
 import "./Introduction.css";
 import { ThemeContext } from "../../Context/theme";
-import profilePic from "../../assets/ProfPic.jpg";
+import profilePic from "../../assets/profPic.png";
 
 export const Introduction = () => {
   const [{ themename }] = useContext(ThemeContext);
@@ -20,7 +20,7 @@ export const Introduction = () => {
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone 👋 My name is{" "}
-                <span className="different">Hiamanshu Mishra </span> from{" "}
+                <span className="different">Himanshu Mishra </span> from{" "}
                 <span className="different">
                   {" "}
                   Faridabad, Haryana (India)
