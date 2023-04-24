@@ -20,7 +20,7 @@ export const Navbar = () => {
   return (
     <>
       <div>
-        <nav className="nav-link home" >
+        <nav className="center nav nav-menu">
           <ul
             style={{ display: showNavList ? "flex" : null }}
             className="nav__list"
