@@ -16,7 +16,7 @@ import resume from "../../assets/himanshuresume.pdf";
 export const About = () => {
   return (
     <>
-      <div id="about" className="about center section"  >
+      <div id="about" className="about section"  >
         <h1 data-aos="fade-right" className="mobileHead">
           Hello, I am <span className="about__name">Himanshu Mishra</span>
         </h1>
