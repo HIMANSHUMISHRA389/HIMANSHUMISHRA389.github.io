@@ -8,7 +8,7 @@ export const Introduction = () => {
 
   return (
     <>
-      <section id="">
+      <section id="home">
         <div className="section" data-aos="fade-right">
           <h2 className="section__title">
             About <span className="different">Me</span>

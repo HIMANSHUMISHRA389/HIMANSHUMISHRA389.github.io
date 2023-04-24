@@ -1,18 +1,8 @@
 import React from "react";
 import "./Projects.css";
-import { FaReact } from "react-icons/fa";
 import {
   SiHtml5,
   SiJavascript,
-  SiChakraui,
-  SiSwiper,
-  SiHeroku,
-  SiVercel,
-  SiNetlify,
-  SiMongodb,
-  SiExpress,
-  SiNodedotjs,
-  SiJsonwebtokens,
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
@@ -20,7 +10,7 @@ import { VscJson } from "react-icons/vsc";
 export const Projects = () => {
   return (
     <>
-      <div className="section">
+      <div id="projects" className="section">
         <h2 className="section__title different">Projects</h2>
         <div className="allProjects">
           <div className="projects_container" data-aos="fade-right">
