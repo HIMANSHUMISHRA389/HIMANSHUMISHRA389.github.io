@@ -16,20 +16,24 @@ import resume from "../../assets/himanshuresume.pdf";
 export const About = () => {
   return (
     <>
-      <div id="about" className="about center section"  >
+      <div id="about" className="about center section">
         <h1 data-aos="fade-right" className="mobileHead">
-          Hello, I am <span className="about__name">Himanshu Mishra</span>
+          Hello, I am{" "}
+          <span id="user-detail-name" className="about__name">
+            Himanshu Mishra
+          </span>
         </h1>
         <Type />
-        <p className="about__desc" data-aos="fade-right">
+        <p id="user-detail-intro" className="about__desc" data-aos="fade-right">
           Aspiring Full Stack Web Developer- Team player with leadership
           quality, Quick learner, working extensively on MERN, HTML, CSS, and
           JavaScript looking forward to working in a product-based company.
           Attired with a variety of tools & technologies and keen to learn new
           one.
         </p>
-        <div className="about__contact center">
+        <div id="contact" className="about__contact center ">
           <a
+            id="contact-github"
             href="https://github.com/HIMANSHUMISHRA389"
             aria-label="github"
             target="_blank"
@@ -39,6 +43,7 @@ export const About = () => {
             <GitHubIcon />
           </a>
           <a
+            id="contact-email"
             href="mailto:himanshumishra389@gmail.com"
             target="_blank"
             rel="noreferrer"
@@ -48,6 +53,7 @@ export const About = () => {
             <EmailIcon />
           </a>
           <a
+            id="contact-phone"
             href="tel:+91-9354111045"
             target="_blank"
             rel="noreferrer"
@@ -57,6 +63,7 @@ export const About = () => {
             <PhoneIcon />
           </a>
           <a
+            id="contact-linkedin"
             href="https://www.linkedin.com/in/himanshu-mishra-5302b4189/"
             aria-label="linkedin"
             className="link link--icon"
@@ -65,9 +72,9 @@ export const About = () => {
           >
             <LinkedInIcon />
           </a>
-          
+
           <a
-            href="https://twitter.com/"//twitter dalna h 
+            href="https://twitter.com/" //twitter dalna h
             aria-label="twitter"
             className="link link--icon"
             target="_blank"
@@ -77,7 +84,7 @@ export const About = () => {
           </a>
         </div>
         <a href={resume} download>
-          <button className="btnResume">
+          <button id="resume-link-2" className="btnResume">
             Resume <GetAppIcon className="resume-dwnld" />
           </button>
         </a>

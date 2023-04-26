@@ -14,18 +14,15 @@ export const Introduction = () => {
             About <span className="different">Me</span>
           </h2>
           <div className={"introduction " + themename}>
-            <div className="introduction_logocontainer">
+            <div className="introduction_logocontainer home-img">
               <img src={profilePic} alt="Images" />
             </div>
             <div className="introduction_datacontainer">
               <h4>
                 Hi Everyone 👋 My name is{" "}
                 <span className="different">Himanshu Mishra </span> from{" "}
-                <span className="different">
-                  {" "}
-                  Faridabad, Haryana (India)
-                </span>
-                . I completed my intermediate in july 2019 {" "}
+                <span className="different"> Faridabad, Haryana (India)</span>.
+                I completed my intermediate in july 2019{" "}
                 <span className="different">
                   Kurushetra Senior Secondary School, Faridbad (Haryana)
                 </span>

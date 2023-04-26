@@ -25,7 +25,10 @@ export const Navbar = () => {
             style={{ display: showNavList ? "flex" : null }}
             className="nav__list"
           >
-            <li className="nav__list-item">
+            <li
+              className="nav__list-item
+            "
+            >
               <a
                 href="#about"
                 onClick={() => toggleNavList("#about")}
@@ -43,7 +46,7 @@ export const Navbar = () => {
                 Tech Stacks
               </a>
             </li>
-            <li className="nav__list-item">
+            <li className="nav__list-item nav-link skills">
               <a
                 href="#skills"
                 onClick={() => toggleNavList("#skills")}
@@ -52,7 +55,7 @@ export const Navbar = () => {
                 Skills
               </a>
             </li>
-            <li className="nav__list-item">
+            <li className="nav__list-item nav-link projects">
               <a
                 href="#projects"
                 onClick={() => toggleNavList("#projects")}
@@ -61,7 +64,10 @@ export const Navbar = () => {
                 Projects
               </a>
             </li>
-            <li className="nav__list-item">
+            <li
+              className="nav__list-item
+            nav-link contact"
+            >
               <a
                 href="#contact"
                 onClick={() => toggleNavList("#contact")}
@@ -70,8 +76,12 @@ export const Navbar = () => {
                 Contact
               </a>
             </li>
-            <li className="nav__list-item">
+            <li
+              className="nav__list-item
+            nav-link resume"
+            >
               <a
+                id="resume-link-2"
                 href="https://drive.google.com/file/d/1z3kf2kfqpxr8UYsTzJ6m2WcIgaLybkB1/view?usp=share_link"
                 //drive link to be updated///////dalna h
                 onClick={toggleNavList}
