@@ -64,6 +64,9 @@ const GitHub = () => {
 
   const { blockSize, blockMargin, fontSize, showWeekdayLabels } = getResponsiveValues();
 
+  // API URL for fetching GitHub contributions directly
+  const apiUrl = `https://github-contributions-api.jogruber.de/v4/himanshumishra389?y=last`;
+
   return (
     <section className="github-section section">
       <div className="github-container" data-aos="fade-up">
@@ -76,7 +79,7 @@ const GitHub = () => {
 
         <div className={`github-calendar-wrapper ${themename}`}>
           <GitHubCalendar
-            username="HIMANSHUMISHRA389"
+            username="himanshumishra389"
             blockSize={blockSize}
             blockMargin={blockMargin}
             fontSize={fontSize}
@@ -84,6 +87,8 @@ const GitHub = () => {
             tooltipFormatter={tooltipFormatter}
             showWeekdayLabels={showWeekdayLabels}
             hideColorLegend={width < 480}
+            fetchUrl={apiUrl}
+            proxyUrl=""
             labels={{
               months: width < 480 ? 
                 ["J", "F", "M", "A", "M", "J", "J", "A", "S", "O", "N", "D"] :
@@ -98,7 +103,7 @@ const GitHub = () => {
         
         <div className="github-cta">
           <a 
-            href="https://github.com/HIMANSHUMISHRA389" 
+            href="https://github.com/HIMANSHUMISHRA389/" 
             target="_blank"
             rel="noreferrer"
             className="github-button"
