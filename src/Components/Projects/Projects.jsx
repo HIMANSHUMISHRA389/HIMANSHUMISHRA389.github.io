@@ -5,7 +5,7 @@ import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import {TbBrandRedux} from "react-icons/tb"
-import easyTagImage from '../../assets/Images/EasyTag/easyTag.png';
+import easyTagImage from '../../assets/Images/EazyTag/easyTag.png';
 import TradeQ from "../../assets/Images/TradeQ/Screenshot 2025-04-01 225418.png";
 import farfetchImage from "../../assets/Images/FarFetch/image.png";
 // import { IoLogoJavascript } from "react-icons/io";
@@ -76,8 +76,8 @@ export const Projects = () => {
   const projectsData = [
     {
       image: easyTagImage,
-      title: "EasyTag Product",
-      description: "EasyTag is a web platform that enables vehicle owners to purchase QR codes for their vehicles. In case of emergencies or mishaps, anyone can scan the QR code to contact the vehicle owner via phone call, SMS, or video call. The platform ensures complete privacy, as no contact numbers or personal details are shared with the person scanning the code.",
+      title: "EazyTag Product",
+      description: "EazyTag is a web platform that enables vehicle owners to purchase QR codes for their vehicles. In case of emergencies or mishaps, anyone can scan the QR code to contact the vehicle owner via phone call, SMS, or video call. The platform ensures complete privacy, as no contact numbers or personal details are shared with the person scanning the code.",
       techStack: ["html", "css", "javascript","react","tailwindcss"],
       liveLink: "https://eazytag.com/",
       codeLink: "https://github.com/rajyadav0001/Lovoda-clone"
