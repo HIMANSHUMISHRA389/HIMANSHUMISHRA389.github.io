@@ -13,12 +13,15 @@ import {
     SiPostman,
     SiExpress,
     SiMongodb,
-    SiRailway
+    SiRailway,
+    SiMysql,
+    SiGodaddy
 } from "react-icons/si";
 import { DiCss3 } from "react-icons/di";
 import { SiJavascript, SiHeroku } from "react-icons/si";
 import { VscGithub } from "react-icons/vsc";
 import { BsBootstrap } from "react-icons/bs";
+import { SignalWifi1BarLockTwoTone } from "@mui/icons-material";
 
 export const Techstacks = () => {
     return (
@@ -88,7 +91,18 @@ export const Techstacks = () => {
                         <SiMongodb />
                         <h5>Mongodb</h5>
                     </div>
-                    
+                    <div>
+                        <SiMysql />
+                        <h5>MySQL</h5>
+                    </div>
+                    <div>
+                        <SignalWifi1BarLockTwoTone />
+                        <h5>Lottie Animations</h5>
+                    </div>
+                    <div>
+                        <SiGodaddy />
+                        <h5>Go Daddy</h5>
+                    </div>
 
                     
 

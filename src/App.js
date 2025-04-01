@@ -43,6 +43,7 @@ function App() {
           <GetInTouch />
         </section>
       </main>
+
       <Footer />
       <ScrollToTop />
     </div>

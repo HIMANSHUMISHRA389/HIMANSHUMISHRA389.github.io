@@ -1,12 +1,12 @@
 import React from "react";
 import "./About.css";
 import { Type } from "./Type";
-import GitHubIcon from "@material-ui/icons/GitHub";
-import LinkedInIcon from "@material-ui/icons/LinkedIn";
-import EmailIcon from "@material-ui/icons/Email";
-import PhoneIcon from "@material-ui/icons/Phone";
-import TwitterIcon from "@material-ui/icons/Twitter";
-import GetAppIcon from "@material-ui/icons/GetApp";
+import GitHubIcon from "@mui/icons-material/GitHub";
+import LinkedInIcon from "@mui/icons-material/LinkedIn";
+import EmailIcon from "@mui/icons-material/Email";
+import PhoneIcon from "@mui/icons-material/Phone";
+import TwitterIcon from "@mui/icons-material/Twitter";
+import GetAppIcon from "@mui/icons-material/GetApp";
 import { Introduction } from "./Introduction";
 import { Techstacks } from "./Techstacks";
 import Skills from "./Skills";
@@ -25,11 +25,12 @@ export const About = () => {
         </h1>
         <Type />
         <p id="user-detail-intro" className="about__desc" data-aos="fade-right">
-          Aspiring Full Stack Web Developer- Team player with leadership
-          quality, Quick learner, working extensively on MERN, HTML, CSS, and
-          JavaScript looking forward to working in a product-based company.
-          Attired with a variety of tools & technologies and keen to learn new
-          one.
+          Experienced MERN Stack Developer with 2.5 years of professional experience.
+          Strong team player with leadership qualities, adept at building robust web
+          applications using MongoDB, Express.js, React, and Node.js. Proficient in
+          HTML, CSS, and JavaScript with a proven track record in companies.
+          Equipped with diverse tools & technologies and passionate about continuous learning
+          and innovation.
         </p>
         <div id="contact" className="about__contact center ">
           <a
@@ -74,7 +75,7 @@ export const About = () => {
           </a>
 
           <a
-            href="https://twitter.com/" //twitter dalna h
+            href="https://x.com/himanshumi389" //twitter dalna h
             aria-label="twitter"
             className="link link--icon"
             target="_blank"

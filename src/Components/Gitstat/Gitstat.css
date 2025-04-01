@@ -68,3 +68,104 @@ img {
      
     }
 }
+
+.gitstat-container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 3rem 1.5rem;
+}
+
+.gitstat-header {
+  text-align: center;
+  margin-bottom: 2.5rem;
+}
+
+.gitstat-header h2 {
+  font-size: 2.5rem;
+  margin-bottom: 0.5rem;
+  color: #333;
+}
+
+.gitstat-header p {
+  font-size: 1.1rem;
+  color: #666;
+}
+
+.gitstat-wrapper {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+}
+
+.gitstat-card {
+  background-color: #f8f9fa;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+  padding: 1.5rem;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.gitstat-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+}
+
+.gitstat-card h3 {
+  font-size: 1.25rem;
+  margin-bottom: 1rem;
+  color: #333;
+  text-align: center;
+}
+
+.gitstat-card a {
+  display: block;
+  width: 100%;
+  text-decoration: none;
+}
+
+.gitstat-img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  object-fit: contain;
+}
+
+/* Ensure images scale properly on all devices */
+@media (max-width: 992px) {
+  .gitstat-wrapper {
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+  }
+}
+
+@media (max-width: 768px) {
+  .gitstat-container {
+    padding: 2rem 1rem;
+  }
+  
+  .gitstat-header h2 {
+    font-size: 2rem;
+  }
+  
+  .gitstat-wrapper {
+    grid-template-columns: 1fr;
+    gap: 1.5rem;
+  }
+}
+
+@media (max-width: 480px) {
+  .gitstat-header h2 {
+    font-size: 1.75rem;
+  }
+  
+  .gitstat-header p {
+    font-size: 1rem;
+  }
+  
+  .gitstat-card {
+    padding: 1rem;
+  }
+}

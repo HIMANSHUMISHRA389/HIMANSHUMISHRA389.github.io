@@ -1,10 +1,10 @@
 import React, { useContext, useState } from "react";
 import { ThemeContext } from "../../Context/theme";
 import "./Navbar.css";
-import Brightness2Icon from "@material-ui/icons/Brightness2";
-import WbSunnyRoundedIcon from "@material-ui/icons/WbSunnyRounded";
-import MenuIcon from "@material-ui/icons/Menu";
-import CloseIcon from "@material-ui/icons/Close";
+import Brightness2Icon from "@mui/icons-material/Brightness2";
+import WbSunnyRoundedIcon from "@mui/icons-material/WbSunnyRounded";
+import MenuIcon from "@mui/icons-material/Menu";
+import CloseIcon from "@mui/icons-material/Close";
 
 export const Navbar = () => {
   const [{ themename, toggeltheme }] = useContext(ThemeContext);
@@ -82,7 +82,7 @@ export const Navbar = () => {
             >
               <a
                 id="resume-link-2"
-                href="https://drive.google.com/file/d/1z3kf2kfqpxr8UYsTzJ6m2WcIgaLybkB1/view?usp=share_link"
+                href="https://drive.google.com/file/d/1o5zBq1m6sDwnhtPg4VwmoSaSUv6WgjuD/view?usp=drive_link"
                 //drive link to be updated///////dalna h
                 onClick={toggleNavList}
                 className="link link--nav"
