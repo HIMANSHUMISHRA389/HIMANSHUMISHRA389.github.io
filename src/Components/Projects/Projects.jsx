@@ -5,7 +5,7 @@ import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { FaReact, FaNodeJs } from "react-icons/fa";
 import {TbBrandRedux} from "react-icons/tb"
-import easyTagImage from '../../assets/Images/EazyTag/easyTag.png';
+import easyTagImage from '../../assets/Images/EasyTag/easyTag.png';
 import TradeQ from "../../assets/Images/TradeQ/Screenshot 2025-04-01 225418.png";
 import farfetchImage from "../../assets/Images/FarFetch/image.png";
 // import { IoLogoJavascript } from "react-icons/io";
