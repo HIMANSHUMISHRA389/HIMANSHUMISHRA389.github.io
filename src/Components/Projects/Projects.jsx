@@ -95,22 +95,22 @@ export const Projects = () => {
 
 
 
-    {
-      image: "https://d2njprwt6vp5kv.cloudfront.net/vendor/6401/main/06182020fg1592500001054.jpg",
-      title: "Lovoda",
-      description: "Lovoda is an online jewelry and accessories brand located in Hanover, Maryland. it is a brand that thrives on providing jewelry that is stunning, high quality, and timeless to you.",
-      techStack: ["html", "css", "javascript"],
-      liveLink: "https://lovodarachnacom.netlify.app/",
-      codeLink: "https://github.com/rajyadav0001/Lovoda-clone"
-    },
-    {
-      image:farfetchImage,
-      title: "Farfetch",
-      description: "Farfetch is a British-Portuguese online luxury fashion retail platform that sells products from over 700 boutiques and brands from around the world.",
-      techStack: ["html", "css", "javascript", "react", "redux", "node"],
-      liveLink: "https://farfetchclone.netlify.app/",
-      codeLink: "https://github.com/HIMANSHUMISHRA389/Farfetch"
-    }
+    // {
+    //   image: "https://d2njprwt6vp5kv.cloudfront.net/vendor/6401/main/06182020fg1592500001054.jpg",
+    //   title: "Lovoda",
+    //   description: "Lovoda is an online jewelry and accessories brand located in Hanover, Maryland. it is a brand that thrives on providing jewelry that is stunning, high quality, and timeless to you.",
+    //   techStack: ["html", "css", "javascript"],
+    //   liveLink: "https://lovodarachnacom.netlify.app/",
+    //   codeLink: "https://github.com/rajyadav0001/Lovoda-clone"
+    // },
+    // {
+    //   image:farfetchImage,
+    //   title: "Farfetch",
+    //   description: "Farfetch is a British-Portuguese online luxury fashion retail platform that sells products from over 700 boutiques and brands from around the world.",
+    //   techStack: ["html", "css", "javascript", "react", "redux", "node"],
+    //   liveLink: "https://farfetchclone.netlify.app/",
+    //   codeLink: "https://github.com/HIMANSHUMISHRA389/Farfetch"
+    // }
     // Add more projects here
   ];
 
