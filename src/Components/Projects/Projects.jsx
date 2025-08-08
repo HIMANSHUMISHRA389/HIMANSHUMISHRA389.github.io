@@ -7,7 +7,7 @@ import { FaReact, FaNodeJs } from "react-icons/fa";
 import {TbBrandRedux} from "react-icons/tb"
 import easyTagImage from '../../assets/Images/EasyTag/easyTag.png';
 import TradeQ from "../../assets/Images/TradeQ/Screenshot 2025-04-01 225418.png";
-import farfetchImage from "../../assets/Images/FarFetch/image.png";
+import Talent from "../../assets/Images/talent.png";
 // import { IoLogoJavascript } from "react-icons/io";
 
 // Project Card Component
@@ -87,7 +87,7 @@ export const Projects = () => {
       title: "TradeQ Product",
       description: "TradeQ is a comprehensive trading platform that offers advanced charting tools, real-time market predictions, and analytics to help traders make informed decisions. It features customizable dashboards, multiple timeframe analysis, and automated trading strategies for both beginners and experienced traders.",
       techStack: ["html", "css", "javascript","react","chakraui", "redux"],
-      liveLink: "https://tdqbe.com/app/login",
+      liveLink: "https://app.tradedeq.com/app/dashboard",
       codeLink: "https://github.com/rajyadav0001/Lovoda-clone"
     },
 
@@ -95,14 +95,14 @@ export const Projects = () => {
 
 
 
-    // {
-    //   image: "https://d2njprwt6vp5kv.cloudfront.net/vendor/6401/main/06182020fg1592500001054.jpg",
-    //   title: "Lovoda",
-    //   description: "Lovoda is an online jewelry and accessories brand located in Hanover, Maryland. it is a brand that thrives on providing jewelry that is stunning, high quality, and timeless to you.",
-    //   techStack: ["html", "css", "javascript"],
-    //   liveLink: "https://lovodarachnacom.netlify.app/",
-    //   codeLink: "https://github.com/rajyadav0001/Lovoda-clone"
-    // },
+    {
+      image: Talent,
+      title: "Talent HUB",
+      description: "Talent Hub is a comprehensive recruitment platform connecting skilled professionals with employers.",
+      techStack: ["html", "css", "javascript","tailwindcss","react"],
+      liveLink: "https://cosmic-narwhal-a85b31.netlify.app/",
+      codeLink: ""
+    },
     // {
     //   image:farfetchImage,
     //   title: "Farfetch",
