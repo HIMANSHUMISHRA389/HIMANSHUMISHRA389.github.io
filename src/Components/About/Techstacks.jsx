@@ -5,15 +5,12 @@ import {
     SiRedux,
     SiHtml5,
     SiChakraui,
-    SiSwiper,
     SiNetlify,
-    SiVercel,
     SiNodedotjs,
     SiNodemon,
     SiPostman,
     SiExpress,
     SiMongodb,
-    SiRailway,
     SiMysql,
     SiGodaddy
 } from "react-icons/si";

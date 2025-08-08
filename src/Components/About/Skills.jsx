@@ -6,7 +6,7 @@ import { ThemeContext } from "../../Context/theme";
 
 
 const Skills = () => {
-    const [{ themename }] = React.useContext(ThemeContext);
+    React.useContext(ThemeContext);
   return (
     <div id="skills" style={{ marginTop: "10rem" }}>
       <h2 className="section__title different">SKILLS</h2>

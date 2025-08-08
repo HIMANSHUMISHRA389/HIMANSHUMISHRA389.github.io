@@ -4,10 +4,9 @@ import { SiChakraui, SiHtml5, SiJavascript, SiRedux, SiTailwindcss } from "react
 import { DiCss3 } from "react-icons/di";
 import { VscJson } from "react-icons/vsc";
 import { FaReact, FaNodeJs } from "react-icons/fa";
-import {TbBrandRedux} from "react-icons/tb"
 import easyTagImage from '../../assets/Images/EasyTag/easyTag.png';
 import TradeQ from "../../assets/Images/TradeQ/Screenshot 2025-04-01 225418.png";
-import Talent from "../../assets/Images/talent.png";
+// import Talent from "../../assets/Images/Talent/talent.png";
 // import { IoLogoJavascript } from "react-icons/io";
 
 // Project Card Component
@@ -90,28 +89,14 @@ export const Projects = () => {
       liveLink: "https://app.tradedeq.com/app/dashboard",
       codeLink: "https://github.com/rajyadav0001/Lovoda-clone"
     },
-
-
-
-
-
-    {
-      image: Talent,
+   {
+      // image: Talent,
       title: "Talent HUB",
       description: "Talent Hub is a comprehensive recruitment platform connecting skilled professionals with employers.",
       techStack: ["html", "css", "javascript","tailwindcss","react"],
       liveLink: "https://cosmic-narwhal-a85b31.netlify.app/",
       codeLink: ""
     },
-    // {
-    //   image:farfetchImage,
-    //   title: "Farfetch",
-    //   description: "Farfetch is a British-Portuguese online luxury fashion retail platform that sells products from over 700 boutiques and brands from around the world.",
-    //   techStack: ["html", "css", "javascript", "react", "redux", "node"],
-    //   liveLink: "https://farfetchclone.netlify.app/",
-    //   codeLink: "https://github.com/HIMANSHUMISHRA389/Farfetch"
-    // }
-    // Add more projects here
   ];
 
   return (
